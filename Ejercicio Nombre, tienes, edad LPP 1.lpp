@@ -1,0 +1,10 @@
+Entero edad 
+Cadena [25]Nombre
+Inicio
+	edad <-21
+	Escriba "Escribe Tu Nombre"
+	Llamar Nueva_Linea
+	Lea Nombre
+		Escriba "Tu Nombre Es:" ,Nombre,"y Tienes",edad
+		Llamar Nueva_Linea
+Fin

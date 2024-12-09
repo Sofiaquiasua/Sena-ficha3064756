@@ -1,0 +1,11 @@
+
+entero numero1,peso,coco
+inicio
+mientras (numero1<7) haga
+escriba "ingrese su peso"
+lea peso
+escriba "quiere coco? oprima 5"
+lea coco
+numero1<-numero1+1
+fin mientras
+fin

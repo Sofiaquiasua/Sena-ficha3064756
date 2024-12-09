@@ -1,0 +1,18 @@
+
+entero e,numero
+real tango
+inicio
+  llamar inicializar_aleatorio()
+  
+  para numero<-1 hasta 10 haga
+  tango<-aleatorio()*11
+   llamar nueva_linea
+   e<-tango
+ escriba "el numero",numero,"generado fue:",tango,"pero con conversion automatica del numero quedo en",e
+ llamar nueva_linea
+   fin para 
+
+fin
+
+  
+ 

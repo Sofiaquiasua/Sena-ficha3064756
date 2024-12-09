@@ -1,0 +1,13 @@
+
+cadena [2] entrada
+entero numero1,coco
+inicio
+lea entrada
+mientras (entrada "si") haga
+escriba "voy en:",numero1
+llamar nueva_linea
+lea numero1
+lea entrada
+fin mientras
+escriba entrada
+fin

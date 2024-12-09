@@ -1,0 +1,32 @@
+ entero n1,n2,n3
+ inicio
+ "n1"<-1
+ "n2"<-2
+ "n3"<-3
+ si [(n1<n2) y (n2<n3)] entonces
+    escriba "el numero mayor es: ,"n3
+    llamar nueva_linea
+ sino 
+    si[(n1<n2) y (n2<n3)] entonces
+      escriba "el numero mayor es: ,"n1
+      llamar nueva_linea
+ sino
+    si[(n1<n2) y (n2<n3)] entonces
+      escriba "el numero mayor es: ,"n3
+      llamar nueva_linea
+ sino
+   si[(n1<n2) y (n2<n3)] entonces
+     escriba "el numero mayor es: ,"n2
+     llamar nueva_linea
+ sino
+   si[(n1<n2) y (n2<n3)] entonces
+     escriba "el  mayor es: , "n2
+     llamar nueva_linea
+  sino   
+   si [(n1<n2) y (n2<n3)] entonces
+ 
+    escriba "hola"
+       fin si
+     fin si
+   fin si
+ fin si      

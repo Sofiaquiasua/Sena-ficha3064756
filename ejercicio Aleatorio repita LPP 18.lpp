@@ -1,0 +1,36 @@
+entero n1,n2,p,q,e,r,numero,p1,p2,p3
+caracter continuar
+inicio
+llamar Inicializar_Aleatorio()
+repita
+	para P<-1 hasta 2 haga
+		p2<-aleatorio()*3	
+		llamar nueva_linea
+	fin para
+llamar nueva_linea
+	escriba "numero  quedo en: ",p2
+	llamar nueva_linea
+		si(p2=0)entonces
+			escriba "El numero generado fue CERO y no es posible con ese numero generar la operacion Adios"
+		sino
+             p<-1
+			mientras (p<=p2) haga
+					escriba "suma :",p
+					llamar nueva_linea
+					escriba "ingrese el primer numero para la suma"
+					llamar nueva_linea
+					lea n1
+					escriba "ingrese el segundo numero para la suma"
+					llamar nueva_linea
+					lea n2
+					r<-n1+n2
+					escriba "el resultado de la suma es",r
+					p<-p+1
+	llamar nueva_linea
+			fin mientras
+		fin si
+		escriba "desea terminar)? escriba N"
+		llamar nueva_linea
+		lea continuar
+	hasta (continuar='N')
+fin

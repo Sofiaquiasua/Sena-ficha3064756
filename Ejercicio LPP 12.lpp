@@ -1,0 +1,12 @@
+entero e,numero
+
+inicio
+  llamar inicializar_aleatorio()
+
+  para numero<-1 hasta 10 haga
+	e<-aleatorio()*5
+	llamar nueva_linea
+    escriba "el numero",numero,"generado fue:",e
+
+  fin para
+fin

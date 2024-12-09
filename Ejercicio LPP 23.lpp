@@ -1,0 +1,73 @@
+arreglo[10] de cadena [10] v1
+arreglo[10] de caracter [10] 
+arreglo[10] de entero [10] numero
+arreglo[10] de real [10] 2
+entero numero
+inicio
+    escriba "ingreso de elemnetos del arreglo"
+	llamar nueva_linea
+	escriba "por favor ingrese el contenido del arreglo de tipo cadena (maximo 12 caracteres)"
+	llamar nueva_linea
+	para numero<-1 hasta 7 haga
+	   llamar nueva_linea
+	   escriba "el la posicion [" ,numero,"va a quedar el elemento: " , [numero]
+    para numero<-1 hasta 7 haga
+       llamar nueva_linea
+       escriba "el la posicion [" ,numero, "va a quedar el elemento: "
+       escriba "la posicion [" ,numero,"] tiene el elemento:" , s[numero]
+    fin para
+    
+	   lea pollos[numero]
+	   
+    fin para
+    llamar nueva_linea
+    para numero<-1 hasta 7 haga
+       llamar nueva_linea
+       escriba "la posicion [" ,numero,"] tiene el elemento:" ,v1 [numero]
+    fin para
+    
+    
+    	escriba "ingreso de elemnetos del arreglo"
+	    llamar nueva_linea
+	    escriba "por favor ingrese el contenido del arreglo de tipo caracter (maximo 12 caracteres)"
+	    llamar nueva_linea
+	para numero<-1 hasta 7 haga
+	   llamar nueva_linea
+	   lea pollos[numero]
+    fin para
+    llamar nueva_linea
+    para numero<-1 hasta 7 haga
+       llamar nueva_linea
+       escriba "la posicion [" ,numero,"] tiene el elemento:" ,v2 [numero]
+    fin para
+    
+    
+    		escriba "ingreso de elemnetos del arreglo"
+	        llamar nueva_linea
+	        escriba "por favor ingrese el contenido del arreglo de tipo entero (maximo 12 caracteres)"
+	        llamar nueva_linea
+	    para numero<-1 hasta 7 haga
+	   llamar nueva_linea
+	   lea numero<-1[numero]
+    fin para
+    llamar nueva_linea
+    para numero<-1 hasta 7 haga
+       llamar nueva_linea
+       escriba "la posicion [" ,numero,"] tiene el elemento:" ,numero [numero]
+    fin para
+    
+    
+    			escriba "ingreso de elemnetos del arreglo"
+	            llamar nueva_linea
+	            escriba "por favor ingrese el contenido del arreglo de tipo cadena (maximo 12 caracteres)"
+	            llamar nueva_linea
+	 para numero<-1 hasta 7 haga
+	   llamar nueva_linea
+	   lea pollos[numero]
+    fin para
+    llamar nueva_linea
+    para numero<-1 hasta 7 haga
+       llamar nueva_linea
+       escriba "la posicion [" ,numero,"] tiene el elemento:" ,2 [numero]
+    fin para
+fin    
